@@ -1,4 +1,4 @@
-# Customer Retention Analysis — Telecom Business Case
+# Customer Retention Analysis
 
 ## 1. Business Problem
 
