@@ -8,4 +8,11 @@ This isn't a modeling exercise — it's a resource-allocation problem. The compa
 
 ## 2. Data
 
-Public dataset: [IBM Telco Customer Churn sample](https://www.kaggle.com/datasets/blastchar/telco-customer-churn), 7,043 customer records covering demographics, account details (contract type, payment method, tenure), subscribed services, and churn status.
+Public dataset: [IBM Telco Customer Churn sample](https://www.kaggle.com/datasets/blastchar/telco-customer-churn), 7,043 customer records covering demographics, account details, services, and churn status.
+
+## 3. Approach
+
+1. Question Here ??
+2. Question Here ??
+3. Question Here ??
+4. Question Here ??
