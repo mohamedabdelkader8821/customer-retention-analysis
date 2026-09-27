@@ -2,7 +2,13 @@
 
 ## Preview
 <p align="center">
-  <img src="outputs/churn_by_contract.png" alt="churn_by_contract.png" width="900">
+  <table>
+    <tr>
+      <td><img src="outputs/churn_by_contract.png" alt="Churn by Contract" width="300"></td>
+      <td><img src="outputs/churn_by_tenure.png" alt="Churn by Tenure" width="300"></td>
+      <td><img src="outputs/revenue_at_risk.png" alt="Revenue at Risk" width="300"></td>
+    </tr>
+  </table>
 </p>
 
 ## 1. Business Problem
