@@ -23,9 +23,9 @@ Public dataset: [IBM Telco Customer Churn sample](https://www.kaggle.com/dataset
 
 ## 3. Approach
 
-Python (pandas) & SQL Server for data cleaning and analysis.
+I performed the analysis twice — once in Python and once in SQL Server. I started with Python, then rebuilt the table from scratch in SQL Server and repeated the analysis there, including a window function, to get real, demonstrable SQL experience rather than just listing it as a skill.
 
-Every result below matches exactly across both tools. See `analysis_python.ipynb` and `analysis_sqlserver.sql`.
+Matching results in both versions confirmed the work was done correctly. See `analysis_python.ipynb` and `analysis_sqlserver.sql`.
 
 ## 4. Key Findings
 
