@@ -2,7 +2,7 @@
 
 ## Preview
 <p align="center">
-  <img src="customer-retention-analysis/outputs/churn_by_contract.png" alt="churn_by_contract.png" width="900">
+  <img src="outputs/churn_by_contract.png" alt="churn_by_contract.png" width="900">
 </p>
 
 ## 1. Business Problem
