@@ -23,7 +23,31 @@ Public dataset: [IBM Telco Customer Churn sample](https://www.kaggle.com/dataset
 
 ## 3. Approach
 
-1. Question Here ??
-2. Question Here ??
-3. Question Here ??
-4. Question Here ??
+Python (pandas) for cleaning and analysis, SQL Server for a second, independently verified pass 
+using the same dataset — every result below matches exactly across both tools. See `analysis_python.ipynb` 
+and `analysis_sqlserver.sql`.
+
+## 4. Key Findings
+
+- **Overall exposure:** 26.6% of customers have churned, representing 30.5% of monthly revenue 
+  ($139,131 of $455,661/month) — churned customers are disproportionately higher-value.
+- **Contract type is the strongest driver:** Month-to-month churns at 42.7%, vs. 11.3% (one year) 
+  and 2.8% (two year).
+- **Risk is front-loaded:** 53.3% churn in the first 6 months, dropping to 9.5% after year 4.
+- **Highest-risk segment:** month-to-month + electronic check + tenure ≤12mo — 954 customers, 
+  63.1% churn, $66,072/month exposed.
+- **High-value losses aren't concentrated where you'd expect:** the highest-paying churned 
+  customers are spread across all three contract types, not just month-to-month — the biggest 
+  *risk* segment and the biggest *value* losses aren't quite the same population.
+
+## 5. Recommendation
+
+Target the compounding-risk segment directly (month-to-month, electronic check, tenure ≤12mo) with 
+a discounted contract-conversion offer, rather than a broad company-wide campaign. Before scaling 
+spend, A/B test it — the payment-method correlation may reflect a price-sensitive customer type, 
+not a fixable friction point.
+
+## 6. Limitations
+
+Single point-in-time snapshot — shows correlation, not proof of causation. Recommendations should 
+be validated with a controlled test before full rollout.
