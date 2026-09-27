@@ -29,10 +29,21 @@ Matching results in both versions confirmed the work was done correctly. See `an
 
 ## 4. Key Findings
 
-- **26.6% of customers churn**, but they represent **30.5% of monthly revenue ($139K)** — so the customers leaving are more valuable than average.
-- **Contract type matters:** churn is 42.7% for month-to-month customers, vs. 11.3% for one-year and 2.8% for two-year contracts.
-- The highest-risk group is **month-to-month + electronic check + ≤12 months tenure**: 954 customers, **63.1% churn**, and **$66K/month at risk**.
-- One interesting finding: **high-value churned customers are spread across all contract types**, so the biggest risk group isn't necessarily where the biggest revenue losses come from.
+- Churn sits at 26.6% overall, but it's not evenly spread — the customers leaving are worth 
+more than the average customer, since they account for 30.5% of monthly revenue ($139K of 
+$455K).
+
+- Contract type is the clearest driver I found. Month-to-month customers churn at 42.7%, one-year 
+at 11.3%, two-year at 2.8%. Risk is also front-loaded early in the relationship — over half of 
+customers in their first 6 months churn, compared to under 10% after year four.
+
+- The narrowest, most useful segment I found is month-to-month customers paying by electronic 
+check with 12 months or less of tenure: 954 customers, 63.1% churn, $66K/month exposed.
+
+- Something I didn't expect: the highest-paying churned customers aren't concentrated in 
+month-to-month at all — they're spread pretty evenly across all three contract types. So the 
+group with the most churn risk and the group with the biggest individual losses aren't quite 
+the same thing.
 
 ## 5. Recommendation
 
