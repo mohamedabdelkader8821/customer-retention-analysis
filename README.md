@@ -23,9 +23,8 @@ Public dataset: [IBM Telco Customer Churn sample](https://www.kaggle.com/dataset
 
 ## 3. Approach
 
-Python (pandas) for cleaning and analysis, SQL Server for a second, independently verified pass 
-using the same dataset — every result below matches exactly across both tools. See `analysis_python.ipynb` 
-and `analysis_sqlserver.sql`.
+Python (pandas) & SQL Server for data cleaning and analysis.
+Every result below matches exactly across both tools. See `analysis_python.ipynb` and `analysis_sqlserver.sql`.
 
 ## 4. Key Findings
 
@@ -49,5 +48,5 @@ not a fixable friction point.
 
 ## 6. Limitations
 
-Single point-in-time snapshot — shows correlation, not proof of causation. Recommendations should 
-be validated with a controlled test before full rollout.
+This is one snapshot in time, not tracked over time, so what I'm calling 'risk factors' are really just strong correlations.
+Before spending real budget on any of this, I'd want to test it on a smaller group first and check it actually works.
