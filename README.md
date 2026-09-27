@@ -1,5 +1,8 @@
 # Customer Retention Analysis
 
+## Preview
+
+
 ## 1. Business Problem
 
 A telecom provider is losing a meaningful share of its customer base every month, and leadership wants to know: **which customers are churning, why they’re leaving, and where to focus limited retention efforts.**
