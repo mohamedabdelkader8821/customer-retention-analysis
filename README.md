@@ -1,7 +1,9 @@
 # Customer Retention Analysis
 
 ## Preview
-
+<p align="center">
+  <img src="D:/Projects/customer-retention-analysis/outputs/churn_by_contract.png" alt="churn_by_contract.png" width="900">
+</p>
 
 ## 1. Business Problem
 
