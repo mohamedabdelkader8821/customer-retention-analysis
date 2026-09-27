@@ -29,23 +29,22 @@ Matching results in both versions confirmed the work was done correctly. See `an
 
 ## 4. Key Findings
 
-- **Overall exposure:** 26.6% of customers have churned, representing 30.5% of monthly revenue 
-  ($139,131 of $455,661/month) — churned customers are disproportionately higher-value.
-- **Contract type is the strongest driver:** Month-to-month churns at 42.7%, vs. 11.3% (one year) 
-  and 2.8% (two year).
-- **Risk is front-loaded:** 53.3% churn in the first 6 months, dropping to 9.5% after year 4.
-- **Highest-risk segment:** month-to-month + electronic check + tenure ≤12mo — 954 customers, 
-  63.1% churn, $66,072/month exposed.
-- **High-value losses aren't concentrated where you'd expect:** the highest-paying churned 
-  customers are spread across all three contract types, not just month-to-month — the biggest 
-  *risk* segment and the biggest *value* losses aren't quite the same population.
+- **26.6% of customers churn**, but they represent **30.5% of monthly revenue ($139K)** — so the customers leaving are more valuable than average.
+- **Contract type matters:** churn is 42.7% for month-to-month customers, vs. 11.3% for one-year and 2.8% for two-year contracts.
+- The highest-risk group is **month-to-month + electronic check + ≤12 months tenure**: 954 customers, **63.1% churn**, and **$66K/month at risk**.
+- One interesting finding: **high-value churned customers are spread across all contract types**, so the biggest risk group isn't necessarily where the biggest revenue losses come from.
 
 ## 5. Recommendation
 
-Target the compounding-risk segment directly (month-to-month, electronic check, tenure ≤12mo) with 
-a discounted contract-conversion offer, rather than a broad company-wide campaign. Before scaling 
-spend, A/B test it — the payment-method correlation may reflect a price-sensitive customer type, 
-not a fixable friction point.
+Target the compounding-risk segment first — month-to-month, electronic check, tenure ≤12 
+months — with a proactive offer (discounted contract conversion, or a nudge toward automatic 
+payment, which independently correlates with lower churn). This is the highest concentration 
+of risk in the data, so it's the most efficient place to start.
+
+Before rolling this out broadly, I'd run it as an A/B test: give the offer to half the segment 
+at random, leave the other half as-is, and compare churn after a few months. The payment-method 
+correlation could just as easily reflect a price-sensitive customer type as an actual fixable 
+problem, and that's worth knowing before spending real budget on it.
 
 ## 6. Limitations
 
