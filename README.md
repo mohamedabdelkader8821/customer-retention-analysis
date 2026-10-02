@@ -29,33 +29,32 @@ Matching results in both versions confirmed the work was done correctly. See `an
 
 ## 4. Key Findings
 
-- Churn sits at 26.6% overall, but it's not evenly spread — the customers leaving are worth 
-more than the average customer, since they account for 30.5% of monthly revenue ($139K of 
-$455K).
+Churn sits at 26.6% overall, but the customers leaving are worth more than average — they 
+account for 30.5% of monthly revenue ($139K of $455K).
 
-- Contract type is the clearest driver I found. Month-to-month customers churn at 42.7%, one-year 
-at 11.3%, two-year at 2.8%. Risk is also front-loaded early in the relationship — over half of 
-customers in their first 6 months churn, compared to under 10% after year four.
+Contract type is the clearest driver: 42.7% churn on month-to-month, 11.3% on one-year, 2.8% 
+on two-year. Risk is also front-loaded — over half of customers churn in their first 6 months, 
+compared to under 10% after year four.
 
-- The narrowest, most useful segment I found is month-to-month customers paying by electronic 
-check with 12 months or less of tenure: 954 customers, 63.1% churn, $66K/month exposed.
+The narrowest, most useful segment is month-to-month + electronic check + tenure under 12 
+months: 954 customers, 63.1% churn, $66K/month exposed.
 
-- Something I didn't expect: the highest-paying churned customers aren't concentrated in 
-month-to-month at all — they're spread pretty evenly across all three contract types. So the 
-group with the most churn risk and the group with the biggest individual losses aren't quite 
-the same thing.
+One thing I didn't expect: the highest-paying churned customers aren't concentrated in 
+month-to-month — they're spread fairly evenly across all three contract types. The group 
+with the most risk and the group with the biggest individual losses aren't quite the same 
+thing.
 
 ## 5. Recommendation
 
-Target the compounding-risk segment first — month-to-month, electronic check, tenure ≤12 
-months — with a proactive offer (discounted contract conversion, or a nudge toward automatic 
-payment, which independently correlates with lower churn). This is the highest concentration 
-of risk in the data, so it's the most efficient place to start.
+Target the high-risk segment first — month-to-month, electronic check, tenure under 12 
+months — with a proactive offer, like a discounted contract conversion or a nudge toward 
+automatic payment. It's the highest concentration of risk in the data, so it's the most 
+efficient place to start.
 
-Before rolling this out broadly, I'd run it as an A/B test: give the offer to half the segment 
-at random, leave the other half as-is, and compare churn after a few months. The payment-method 
-correlation could just as easily reflect a price-sensitive customer type as an actual fixable 
-problem, and that's worth knowing before spending real budget on it.
+Before rolling it out broadly, I'd test it: offer it to half the segment at random, leave 
+the rest as-is, and compare churn after a few months. The electronic-check correlation could 
+just as easily reflect a price-sensitive customer type as an actual fixable problem, and 
+that's worth knowing before spending real budget on it.
 
 ## 6. Limitations
 
